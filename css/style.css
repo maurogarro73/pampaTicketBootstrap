@@ -260,21 +260,19 @@ a {
 /***************  MAIN  ***************/
 .contenedorSN {
     margin-top: 30px;
-    margin: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .contenedorSN img {
     height: 300px;
-    padding-right: 30px;
 }
 
 .contenedorSN .sobreNosotros {
-    padding: 50px;
     font-size: 17px;
     width: 50%;
+    margin-left: 10px;
 }
 
 .contenedorSN .sobreNosotros h2 {
@@ -529,17 +527,14 @@ a {
     
     /***** SOBRE NOSOTROS *****/
     .contenedorSN {
-        margin-top: 30px;
-        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
     }
     
     .contenedorSN img {
-        height: 300px;
-        padding-right: 5%;
-    }
-    
-    .contenedorSN .sobreNosotros {
-        padding: 5px;
         width: 100%;
     }
     
@@ -609,10 +604,6 @@ a {
     }
 
     /******** SOBRE NOSOTROS ********/
-    .contenedorSN {
-        margin: 20px;
-    }
-
     .contenedorSN img{
         display: none;
     }
