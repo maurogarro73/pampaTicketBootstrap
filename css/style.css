@@ -660,11 +660,11 @@ a {
         width: 90%;
     }
     .contacto input {
-        width: 90%;
+        width: 100%;
     }
 
     .contacto textarea {
-        width: 90%;
+        width: 100%;
     }
 
     .formulario .boton {
